@@ -1,0 +1,567 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow-x: hidden;
+	overflow-y: scroll;
+}
+
+
+/*---------- TOP DIO ----------*/
+
+header {
+	background: url(../img/bg/image-1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	text-align: center;
+}
+
+.top-section {
+	background: -webkit-linear-gradient(282deg, rgba(91, 80, 183, 0.7) 0%, rgba(97, 130, 188, 0.7) 60%, rgba(103, 168, 193, 0.7) 100%);
+	background: -o-linear-gradient(282deg, rgba(91, 80, 183, 0.7) 0%, rgba(97, 130, 188, 0.7) 60%, rgba(103, 168, 193, 0.7) 100%);
+	background: -ms-linear-gradient(282deg, rgba(91, 80, 183, 0.7) 0%, rgba(97, 130, 188, 0.7) 60%, rgba(103, 168, 193, 0.7) 100%);
+	background: -moz-linear-gradient(282deg, rgba(91, 80, 183, 0.7) 0%, rgba(97, 130, 188, 0.7) 60%, rgba(103, 168, 193, 0.7) 100%);
+	background: linear-gradient(168deg, rgba(91, 80, 183, 0.7) 0%, rgba(97, 130, 188, 0.7) 60%, rgba(103, 168, 193, 0.7) 100%);
+	width: 100%;
+	height: auto;
+}
+
+.linija-1 {
+	line-height: 100px;
+	margin-top: 25px;
+	margin-bottom: 100px;
+}
+
+.top-section h3 {
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	font-size: 40px;
+	font-weight: 300;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 auto;
+}
+
+#web-burza-logo {
+	background: url(../img/logo/burza-logo.png) no-repeat center;
+	width: 200px;
+	height: 32px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+#js-sm-logo {
+	background: url(../img/logo/js-sm.png) no-repeat center;
+	width: 44px;
+	height: 49px;
+	display: inline-block;
+	margin: 0 15px 0 15px;
+	vertical-align: middle;
+}
+
+.top-section h1 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 60px;
+	color: #fff;
+	font-weight: 400;
+}
+
+#js-big-logo {
+	background: url(../img/logo/js-big.png) no-repeat center;
+	width: 112px;
+	height: 122px;
+	display: inline-block;
+	margin: 0 15px 0 15px;
+	vertical-align: middle;
+	margin: 0 40px 0 40px;
+}
+
+.top-section p {
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+.btn-join-us,
+btn-join-us:focus,
+btn-join-us:active,
+btn-join-us:visited {
+	background: #ffec27;
+	border-radius: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 100px;
+	padding-right: 100px;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 19px;
+	text-transform: uppercase;
+	-webkit-transition: all 1s;
+	-moz-transition: all 1s;
+	-o-transition: all 1s;
+	transition: all 1s;
+	color: #000;
+	margin-bottom: 100px;
+}
+
+.btn-join-us:hover {
+	background: #ffc527;
+}
+
+
+/*---------- NAVIGACIJA ----------*/
+
+.navigacija {
+	background-color: #000;
+	padding: 5px 0 5px 0;
+	text-align: center;
+	line-height: 50px;
+	position: relative;
+	z-index: 999!important;
+}
+
+nav ul li {
+	margin-top: 10px;
+	display: inline-block;
+}
+
+nav ul li a {
+	color: #fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	letter-spacing: 2px;
+	font-size: 32px;
+}
+
+nav ul li a:hover {
+	cursor: pointer;
+	text-decoration: none;
+	color: #ffec27
+}
+
+#nav-about {
+	float: left;
+}
+
+#nav-joinus {
+	float: right;
+}
+
+
+/*---------- DEVS DIO ----------*/
+
+.devs-section {
+	background: url(../img/bg/image-2.jpg);
+	background-size: cover;
+	background-position: center;
+	text-align: center;
+}
+
+.devs-section-overlay {
+	background: -webkit-linear-gradient(282deg, rgba(91, 80, 183, 0.7) 0%, rgba(97, 130, 188, 0.7) 60%, rgba(103, 168, 193, 0.7) 100%);
+	background: -o-linear-gradient(282deg, rgba(91, 80, 183, 0.7) 0%, rgba(97, 130, 188, 0.7) 60%, rgba(103, 168, 193, 0.7) 100%);
+	background: -ms-linear-gradient(282deg, rgba(91, 80, 183, 0.7) 0%, rgba(97, 130, 188, 0.7) 60%, rgba(103, 168, 193, 0.7) 100%);
+	background: -moz-linear-gradient(282deg, rgba(91, 80, 183, 0.7) 0%, rgba(97, 130, 188, 0.7) 60%, rgba(103, 168, 193, 0.7) 100%);
+	background: linear-gradient(168deg, rgba(91, 80, 183, 0.7) 0%, rgba(97, 130, 188, 0.7) 60%, rgba(103, 168, 193, 0.7) 100%);
+	width: 100%;
+	height: auto;
+}
+
+.devs-section h1 {
+	color: #fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 55px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.row-2-devs {
+	padding-bottom: 50px;
+}
+
+#devs-bottom-row {
+	padding-bottom: 80px;
+}
+
+.dev-tekst {
+	text-align: left;
+	margin-left: 25px;
+	margin-top: -11px;
+}
+
+.dev-tekst h3 {
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.dev-tekst p {
+	font-family: 'Open Sans', sans-serif;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 300;
+}
+
+
+/*---------- JOIN US ----------*/
+
+.join-us {
+	background: -webkit-linear-gradient(282deg, rgba(91, 80, 183, 0.7) 0%, rgba(97, 130, 188, 0.7) 60%, rgba(103, 168, 193, 0.7) 100%);
+	background: -o-linear-gradient(282deg, rgba(91, 80, 183, 0.7) 0%, rgba(97, 130, 188, 0.7) 60%, rgba(103, 168, 193, 0.7) 100%);
+	background: -ms-linear-gradient(282deg, rgba(91, 80, 183, 0.7) 0%, rgba(97, 130, 188, 0.7) 60%, rgba(103, 168, 193, 0.7) 100%);
+	background: -moz-linear-gradient(282deg, rgba(91, 80, 183, 0.7) 0%, rgba(97, 130, 188, 0.7) 60%, rgba(103, 168, 193, 0.7) 100%);
+	background: linear-gradient(168deg, rgba(91, 80, 183, 0.7) 0%, rgba(97, 130, 188, 0.7) 60%, rgba(103, 168, 193, 0.7) 100%);
+	text-align: center;
+}
+
+.linija-join-us {
+	line-height: 100px;
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+#honeycomb-img {
+	width: 116px;
+	height: 116px;
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 50px 0 50px;
+}
+
+.join-us h1 {
+	color: #fff;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 50px;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.forma {
+	margin: 0 25% 0 25%;
+	z-index: 1;
+}
+
+.form-control {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	margin-bottom: 25px;
+	border-radius: 0px;
+	padding: 25px;
+	text-align: center;
+}
+
+textarea {
+	resize: none;
+}
+
+#form-button {
+	width: 100%;
+}
+
+.alert {
+	display: block;
+	width: 400px;
+	margin: auto;
+	position: fixed;
+	left: 50%;
+	margin-left: -200px;
+	top: 200px;
+}
+
+
+/*---------- FOOTER ----------*/
+
+footer {
+	background: #000;
+	text-align: center;
+}
+
+.footer-img {
+	background: url(../img/logo/web-burza.png) no-repeat center;
+	width: 147px;
+	height: 143px;
+	display: inline-block;
+	margin: 30px 0 15px 0;
+}
+
+footer p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	color: #fff;
+	margin-bottom: 30px;
+}
+
+
+/*---------- RESPONZIVNOST ----------*/
+
+@media screen and (min-device-width: 240px) and (max-device-width: 320px) {
+	.linija-1 {
+		margin-top: 10px;
+	}
+	#web-burza-logo {
+		background: url(../img/logo/burza-logo-responsive-mini.png) no-repeat center;
+		width: 92px;
+		height: 15px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.top-section h3 {
+		font-size: 28px;
+	}
+	#js-big-logo {
+		background: url(../img/logo/js-big-responsive-mini.png) no-repeat center;
+		width: 52px;
+		height: 56px;
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 25px 0 25px;
+	}
+	.top-section h1 {
+		font-size: 32px;
+	}
+	.top-section p {
+		font-size: 14px;
+	}
+	.btn-join-us {
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+	nav ul li {
+		margin-top: -15px;
+		display: block;
+	}
+	nav ul li a {
+		color: #fff;
+		font-family: 'Roboto Condensed', sans-serif;
+		letter-spacing: 2px;
+		font-size: 26px;
+	}
+	nav ul li a:hover {
+		cursor: pointer;
+		text-decoration: none;
+		color: #ffec27
+	}
+	#nav-about {
+		float: none;
+		margin-top: 1px;
+	}
+	#nav-joinus {
+		float: none;
+		margin-bottom: -15px;
+	}
+	.devs-section h1 {
+		font-size: 50px;
+	}
+	.dev-tekst {
+		text-align: center;
+		margin: 0 auto;
+	}
+	.dev-tekst h3 {
+		font-size: 18px;
+	}
+	.dev-tekst p {
+		font-size: 15px;
+	}
+	.one-dev {
+		margin-bottom: 55px;
+	}
+	.row-2-devs {
+		padding-bottom: 0;
+	}
+	#devs-bottom-row {
+		padding-bottom: 30px;
+	}
+	.join-us h1 {
+		font-size: 35px;
+	}
+	#honeycomb-img {
+		width: 64px;
+		height: 64px;
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 15px 0 15px;
+	}
+	.forma {
+		margin: 0 5% 0 5%;
+	}
+}
+
+@media screen and (min-device-width: 321px) and (max-device-width: 480px) {
+	.linija-1 {
+		line-height: normal;
+		display: block;
+		text-align: center;
+	}
+	#web-burza-logo {
+		background: url(../img/logo/burza-logo-responsive.png) no-repeat center;
+		width: 120px;
+		height: 19px;
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.top-section h3 {
+		font-size: 32px;
+	}
+	#js-big-logo {
+		background: url(../img/logo/js-big-responsive.png) no-repeat center;
+		width: 72px;
+		height: 78px;
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 25px 0 25px;
+	}
+	.top-section h1 {
+		font-size: 40px;
+	}
+	.top-section p {
+		font-size: 16px;
+	}
+	.navigacija {
+		background-color: #000;
+		padding: 5px 0 5px 0;
+		text-align: center;
+		line-height: 30px;
+	}
+	nav ul li {
+		margin-top: 10px;
+		display: inline-block;
+	}
+	nav ul li a {
+		color: #fff;
+		font-family: 'Roboto Condensed', sans-serif;
+		letter-spacing: 2px;
+		font-size: 32px;
+	}
+	nav ul li a:hover {
+		cursor: pointer;
+		text-decoration: none;
+		color: #ffec27
+	}
+	#nav-about {
+		float: none;
+	}
+	#nav-joinus {
+		float: none;
+	}
+	.dev-tekst {
+		text-align: center;
+		margin: 0 auto;
+	}
+	.dev-tekst h3 {
+		font-size: 18px;
+	}
+	.dev-tekst p {
+		font-size: 15px;
+	}
+	.one-dev {
+		margin-bottom: 55px;
+	}
+	.row-2-devs {
+		padding-bottom: 0;
+	}
+	#devs-bottom-row {
+		padding-bottom: 30px;
+	}
+	#honeycomb-img {
+		width: 64px;
+		height: 64px;
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 15px 0 15px;
+	}
+	.forma {
+		margin: 0 5% 0 5%;
+	}
+}
+
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) {
+	.top-section p {
+		font-size: 19px;
+	}
+	.navigacija {
+		background-color: #000;
+		padding: 5px 0 5px 0;
+		text-align: center;
+		line-height: 30px;
+	}
+	nav ul li {
+		margin-top: 10px;
+		display: inline-block;
+	}
+	nav ul li a {
+		color: #fff;
+		font-family: 'Roboto Condensed', sans-serif;
+		letter-spacing: 2px;
+		font-size: 32px;
+	}
+	nav ul li a:hover {
+		cursor: pointer;
+		text-decoration: none;
+		color: #ffec27
+	}
+	#nav-about {
+		float: none;
+	}
+	#nav-joinus {
+		float: none;
+	}
+	.dev-tekst {
+		text-align: center;
+		margin: 0 auto;
+	}
+	.dev-tekst h3 {
+		font-size: 22px;
+	}
+	.dev-tekst p {
+		font-size: 18px;
+	}
+	.one-dev {
+		margin-bottom: 55px;
+	}
+	.row-2-devs {
+		padding-bottom: 0;
+	}
+	#devs-bottom-row {
+		padding-bottom: 30px;
+	}
+	#honeycomb-img {
+		width: 116px;
+		height: 116px;
+		display: inline-block;
+		vertical-align: middle;
+		margin: 0 15px 0 15px;
+	}
+	.forma {
+		margin: 0 10% 0 10%;
+	}
+	.form-control {
+		font-size: 17px;
+	}
+}
+
+@media screen and (min-device-width: 769px) and (max-device-width: 1024px) {
+	.top-section p {
+		font-size: 20px;
+	}
+	.dev-tekst {
+		margin-left: 35px;
+	}
+	.devs-section img {
+		margin-top: 60%;
+	}
+	.dev-tekst h3 {
+		font-size: 22px;
+	}
+	.dev-tekst p {
+		font-size: 18px;
+	}
+	.forma {
+		margin: 0 15% 0 15%;
+	}
+	.form-control {
+		font-size: 19px;
+	}
+}
