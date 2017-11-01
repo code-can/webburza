@@ -51,7 +51,7 @@ $(function() {
                 })
                 .done(function(response) {
                     $('body').append('<div class="alert alert-success alert-dismissible fade in" role="alert">\
-										<strong>You have successfuly contact us.</strong>\
+										<strong>You have successfuly contacted us.</strong>\
 									</div>');
                     $('.alert').fadeOut(3000);
                     setTimeout(function() {
